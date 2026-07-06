@@ -20,6 +20,7 @@ classes/
 # Fabric
 run/
 *.jar
+!releases/*.jar
 
 # MacOS
 .DS_Store
