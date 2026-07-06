@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "servervox",
+	"version": "${version}",
+	"name": "ServerVox",
+	"description": "A server-side Fabric mod for Minecraft 1.21.1",
+	"authors": [
+		"ServerVox Team"
+	],
+	"contact": {
+		"homepage": "https://github.com/yourusername/servervox",
+		"sources": "https://github.com/yourusername/servervox"
+	},
+	"license": "MIT",
+	"icon": "assets/servervox/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.servervox.ServerVox"
+		]
+	},
+	"mixins": [
+		"servervox.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
